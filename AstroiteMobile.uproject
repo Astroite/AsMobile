@@ -1,8 +1,15 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{E572F4D2-402D-95F6-253E-98AD60494057}",
+	"EngineAssociation": "{CF0A20A5-4F06-F9E9-02A2-5BBDE1237E88}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "AstroiteMobile",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "RenderDocPlugin",
