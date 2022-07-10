@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class AstroiteMobileEditorTarget : TargetRules
+public class AstroiteEditorTarget : TargetRules
 {
-	public AstroiteMobileEditorTarget(TargetInfo Target) : base(Target)
+	public AstroiteEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
-		ExtraModuleNames.AddRange( new string[] { "AstroiteMobile" } );
+		ExtraModuleNames.AddRange( new string[] { "Astroite" } );
 	}
 }

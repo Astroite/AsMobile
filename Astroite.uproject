@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "AstroiteMobile",
+			"Name": "Astroite",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

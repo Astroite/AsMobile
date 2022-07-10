@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class AstroiteMobile : ModuleRules
+public class Astroite : ModuleRules
 {
-	public AstroiteMobile(ReadOnlyTargetRules Target) : base(Target)
+	public Astroite(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
